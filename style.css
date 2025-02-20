@@ -1,0 +1,108 @@
+.Metaverse {
+    background: linear-gradient(to right, #f86cf8, #64cef5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titulo1 , .titulo2 , .titulo3 , .titulos{
+    font-family: "Orbitron", serif
+}
+p{
+    font-family: "Poppins", serif;
+}
+.boton1{
+    background: linear-gradient(to right, #d10ed1, #10a3da);
+    color: white;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    font-family: "Poppins", serif;
+}
+.boton2{
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    padding: 8px 5px;
+    border-image: linear-gradient(to right, #d10ed1, #10a3da) 1;
+    color: white;
+    font-family: "Poppins", serif;
+}
+.numeros{
+    padding-top: 2rem;
+}
+.numeros h2{
+    font-family: "Orbitron", serif
+}
+.numeros p{
+    font-family: "Poppins", serif;
+}
+.texto2{
+    padding-top: 10rem;
+}
+.aura-1{
+    width: 200px;
+    position: absolute;
+    left: 400px;
+    box-shadow: 0px 10px 200px 50px violet;
+    z-index: -1;
+}
+.aura-2{
+    width: 200px;
+    position: absolute;
+    right: 0px;
+    top: 250px;
+    box-shadow: 0px 10px 200px 50px violet;
+    z-index: -1;
+}
+.aura-3{
+    width: 200px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    box-shadow: 0px 10px 200px 50px violet;
+    z-index: -1;
+}
+.aura-4{
+    width: 200px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    box-shadow: 0px 10px 200px 50px violet;
+    z-index: -1;
+}
+.section-1{
+    padding-top: 150px
+}
+.hamburguesa{
+    display: none;
+}
+footer{
+    background-color: #090823;
+}
+@media (min-width:320px) and (max-width:480px){
+    .hamburguesa{
+        display: block;
+    }
+    .links{
+        display: none;
+    }
+    .section-1{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .Artworks{
+        position: absolute;
+        top: 160px;
+    }
+    .Artists{
+        position: absolute;
+        top: 70px;
+        left: 90px;
+    }
+    .Auction{
+        position: absolute;
+        right: 0px;
+        top: 100px;
+    }
+}
